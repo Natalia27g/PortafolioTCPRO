@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Natalia Garcia">
+    <meta name="description" content="Portafolio de desarrollo web de Natalia Garcia">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title> Natalia Garcia | Desarrollo Web Front-End</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/icono.png" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/WhatsApp Image 2023-07-16 at 08.12.51 (1).jpeg" alt="Foto de Jane Doe">
+        <h1>Hola, soy Natalia Garcia</h1>
+        <!--<h2> Aprendiendo el desarrollo de sitios web y programación.</h2>-->
+
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/Captura de pantalla 2023-07-19 155118.png" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Natalia</h2>
+        <p class="seccion-texto">Actualmente soy una estudiante de la carrera de nogocios internacionales en la ciudad de veracruz, universidad ITAG, la cual esta interesada a aprender cosas nuevas, como la programacion y mejorar en ello.</p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p>Desarrollo Front-end e ingenieria de sowftware  . </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">React</span>
+            </div>
+          </div>
+          <!-- cursos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Cursos</p>
+            <p>Ultimamente he terminado algunos cursos para ganar un poco de experiencia, los cuales me ayudan a mejorar ciertas habilidades. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Gerente de proyectos</span>
+              <span class="badge text-bg-primary">Computacion</span>
+              <span class="badge text-bg-primary">Embalaje</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Estudiante</p>
+            <p>Bootcamp de desarrollo Front-end en TecnolochicasPRO y aprendizaje en negocios internaconales y gestiones de proyectos </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Tecnolochicas PRO</span>
+              <span class="badge text-bg-primary">Desarrollo Web</span>
+              <span class="badge text-bg-primary">ITAG</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente... Son pocos pero voy a seguir aprendiendo y creando más. </h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/Captura de pantalla 2023-07-17 135424.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/Captura de pantalla 2023-07-17 135646.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 2</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Mentoras</h2>
+      <h3 class="seccion-descripcion">Estos son algunas de mis mentores, que me acompañaron en este curso</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="https://avatars.githubusercontent.com/u/96328329?v=4" alt="Foto de Miranda">
+              <p class="testimonio-texto"></p>
+              <div class="testimonio-info">
+                <p class="Cliente">Miranda Jaramillo</p>
+                <p class="cargo">Software engineer, 💻Mentor de ingeniería en TecnolochicasPRO •📱Comunicadora de Tecnología + Ciencia</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="https://images.squarespace-cdn.com/content/v1/5bb2ffa57a1fbd5c3246777a/1572545835568-QUTU3RGQ4U88IQPWA1G6/FundacionTelevisa_logo.png?format=1000w" alt="Foto de Nora">
+              <p class="testimonio-texto">Trata de promover actividades para que niños, jóvenes y adultos alcancen una vida inspirada en bienestar, habilidades socio-emocionales y valores.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Fundacion televisa</p>
+                <p class="cargo">Apoyo en diversos cursos, (ONG)</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="data:image/png;base64,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" alt="Foto de Leonardo">
+              <p class="testimonio-texto">Una iniciativa para crear conciencia entre las niñas y jovenes mexicanas, sobre las oportunidades y carreras en tecnologia</p>
+              <div class="testimonio-info">
+                <p class="Mentoras">Tecnolochicas</p>
+                <p class="cargo">Tecnologia</p> </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Actualmente soy una estudiante sin mucha experiencia previa, pero con muchas ganas de mejorar cada vez mas, contactame .
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="https://wa.me/522294098669">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://twitter.com/Natalia60537819?s=09" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://github.com/Natalia27g" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/natalia-garcia-6a333727a/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/natalia_garcia.27/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:natalia27garb@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Natalia Garcia (2023) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
